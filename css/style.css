@@ -1,6 +1,6 @@
 /* =================================
 ------------------------------------
-  IT Host - Hosting Template
+  Diamond Services Code.
   Version: 1.0
  ------------------------------------
  ====================================*/
@@ -1714,4 +1714,13 @@ ol {
 	.faq-accordion.accordion-area .panel-link:after {
 		right: 20px;
 	}
+}
+br{
+	line-height: 100px;
+}
+.copyrighted-badge img{
+	padding: auto;
+	margin:auto;
+	height: 3.2rem;
+	width: 9.5rem;
 }
