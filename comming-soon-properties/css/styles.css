@@ -3,10 +3,10 @@
 
 * 	[Master Stylesheet]
 	
-	Theme Name :  
-	Version    :  
-	Author     :  
-	Author URI :  
+	Theme Name :  Comming Soon Diamond Services 
+	Version    :  V.1.1.5
+	Author     :  Hunter 
+	Author URI :  https://ownerhunter.github.io/
 
 ====================================================
 
@@ -33,6 +33,9 @@ html {
 	margin: 0px;
 	padding: 0px;
 	touch-action: manipulation;
+	background-image: url(../../img/countdown-6-1600x900.jpg);
+	background-size: cover;
+	background-position: center;
 }
 
 
@@ -255,6 +258,8 @@ b.light-color {
 	height: calc(100% - 40px);
 	padding: 20px;
 	background-size: cover;
+	background-image: url(../../img/countdown-6-1600x900.jpg);
+	background-position: center;
 }
 
 .main-area {
@@ -287,9 +292,9 @@ b.light-color {
 	margin: 20px 0 50px;
 	padding: 13px 35px;
 	border-radius: 50px;
-	border: 2px solid #F84982;
+	border: 2px solid rgb(102, 102, 102);
 	color: #fff;
-	background: #F84982;
+	background: rgb(102,102,102);
 }
 
 .main-area .notify-btn:hover {
@@ -310,7 +315,7 @@ b.light-color {
 	height: 90px;
 	width: 90px;
 	border-radius: 100px;
-	background: #fff;
+	background: rgb(224, 223, 223);
 	color: #333;
 }
 
@@ -318,7 +323,8 @@ b.light-color {
 	font-weight: 500;
 	line-height: 70px;
 	font-size: 2em;
-	color: #F84982;
+	/* color: #F84982; */
+	color:rgba(255, 145, 0, 0.89);
 }
 
 #normal-countdown .time-sec span {
@@ -380,3 +386,10 @@ b.light-color {
 .main-area .social-btn>li>a>i[class*="pinterest"] {
 	background: #E1C013;
 }
+
+/* .content{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+} */

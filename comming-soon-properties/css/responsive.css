@@ -1,10 +1,44 @@
 /* Screens Resolution : 992px
 -------------------------------------------------------------------------- */
-@media only screen and (max-width: 1200px) {}
+@media only screen and (max-width: 1200px) {
+	body {
+		background-size: cover;
+		background-position: center;
+		height: auto;
+		width: auto;
+		padding: 15px auto;
+		margin: 15px auto;
+		overflow: hidden;
+	}
+	.main-area-wrapper {
+		height: 100%;
+		padding: 0px;
+		background-image:url(../../img/countdown-6-1600x900.jpg);
+		background-size: cover;
+		background-position: center;
+	}
+}
 
 /* Screens Resolution : 992px
 -------------------------------------------------------------------------- */
-@media only screen and (max-width: 992px) {}
+@media only screen and (max-width: 992px) {
+	body {
+		background-size: cover;
+		background-position: center;
+		height: auto;
+		width: auto;
+		padding: 15px auto;
+		margin: 15px auto;
+		overflow: hidden;
+	}
+	.main-area-wrapper {
+		height: 100%;
+		padding: 0px;
+		background-image:url(../../img/countdown-6-1600x900.jpg);
+		background-size: cover;
+		background-position: center;
+	}
+}
 
 
 /* Screens Resolution : 767px
@@ -14,11 +48,15 @@
 	/* ---------------------------------
 	1. PRIMARY STYLES
 	--------------------------------- */
+
 	body {
-		width: auto;
+		background-size: cover;
+		background-position: center;
 		height: auto;
-		padding: auto;
-		margin: auto;
+		width: auto;
+		padding: 15px auto;
+		margin: 15px auto;
+		overflow: hidden;
 	}
 
 	p {
@@ -47,8 +85,10 @@
 	.main-area-wrapper {
 		height: 100%;
 		padding: 0px;
+		background-image:url(../../img/countdown-6-1600x900.jpg);
+		background-size: cover;
+		background-position: center;
 	}
-
 
 	/* TIME COUNTDOWN */
 
@@ -76,9 +116,22 @@
 	/* ---------------------------------
 	1. PRIMARY STYLES
 	--------------------------------- */
-
+	.main-area-wrapper {
+		height: 100%;
+		padding: 0px;
+		background-image:url(../../img/countdown-6-1600x900.jpg);
+		background-size: cover;
+		background-position: center;
+	}
 	body {
-		font-size: 12px;
+		background-size: cover;
+		background-position: center;
+		height: auto;
+		width: auto;
+		padding: 15px auto;
+		margin: 15px auto;
+		font-size: 16px;
+		overflow: hidden;
 	}
 
 	/* ---------------------------------
@@ -102,10 +155,42 @@
 
 /* Screens Resolution : 359px
 -------------------------------------------------------------------------- */
-@media only screen and (max-width: 359px) {}
+@media only screen and (max-width: 359px) {
+	body {
+		background-size: cover;
+		background-position: center;
+		height: auto;
+		width: auto;
+		padding: 15px auto;
+		margin: 15px auto;
+		overflow: hidden;
+	}
+	.main-area-wrapper {
+		height: 100%;
+		padding: 0px;
+		background-image:url(../../img/countdown-6-1600x900.jpg);
+		background-size: cover;
+		background-position: center;
+	}
+}
 
 /* Screens Resolution : 290px
 -------------------------------------------------------------------------- */
 @media only screen and (max-width: 290px) {
-	
+	body {
+		background-position: center;
+		height: auto;
+		width: auto;
+		padding: 15px auto;
+		margin: 15px auto;
+		transform: none;
+		overflow: hidden;
+	}
+	.main-area-wrapper {
+		height: 100%;
+		padding: 0px;
+		background-image:url(../../img/countdown-6-1600x900.jpg);
+		background-size: cover;
+		background-position: center;
+	}
 }
