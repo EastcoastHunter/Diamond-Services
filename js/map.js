@@ -15,7 +15,7 @@ function initialize() {
 		icon: img_icon,
 		position: new google.maps.LatLng(40.747508, -73.966302) //change the coordinates
 	});
-	google.maps.event.addListener(marker, "click", function () {
+	google.maps.event.addListener(marker, "click", function() {
 		infowindow.open(map, marker);
 	});
 }

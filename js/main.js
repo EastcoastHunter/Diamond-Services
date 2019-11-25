@@ -9,7 +9,7 @@
 'use strict';
 
 
-$(window).on('load', function () {
+$(window).on('load', function() {
 	/*------------------
 		Preloder
 	--------------------*/
@@ -18,11 +18,11 @@ $(window).on('load', function () {
 
 });
 
-(function ($) {
+(function($) {
 	/*------------------
 		Navigation
 	--------------------*/
-	$('.nav-switch').on('click', function (event) {
+	$('.nav-switch').on('click', function(event) {
 		$(this).toggleClass('active');
 		$('.nav-warp').slideToggle(400);
 		event.preventDefault();
@@ -32,7 +32,7 @@ $(window).on('load', function () {
 	/*------------------
 		Background Set
 	--------------------*/
-	$('.set-bg').each(function () {
+	$('.set-bg').each(function() {
 		var bg = $(this).data('setbg');
 		$(this).css('background-image', 'url(' + bg + ')');
 	});
@@ -41,14 +41,15 @@ $(window).on('load', function () {
 	/*------------------
 		Progress Bar
 	--------------------*/
-	$('.progress-bar-style').each(function () {
+	$('.progress-bar-style').each(function() {
 		var progress = $(this).data("progress");
 		var bgcolor = $(this).data("bgcolor");
 		var prog_width = progress + '%';
 		if (progress <= 100) {
-			$(this).append('<div class="bar-inner" style="width:' + prog_width + '; background: ' + bgcolor + ';"><span>' + prog_width + '</span></div>');
-		} else {
-			$(this).append('<div class="bar-inner" style="width:100%; background: ' + bgcolor + ';"><span>100%</span></div>');
+			$(this).append('<div class="bar-inner" style="width:' + prog_width + '; background: '+ bgcolor +';"><span>' + prog_width + '</span></div>');
+		}
+		else {
+			$(this).append('<div class="bar-inner" style="width:100%; background: '+ bgcolor +';"><span>100%</span></div>');
 		}
 	});
 
@@ -63,12 +64,12 @@ $(window).on('load', function () {
 		nav: false,
 		dots: true,
 		margin: 128,
-		center: true,
+		center:true,
 		items: 1,
 		mouseDrag: false,
 		animateOut: 'fadeOutRight',
 		animateIn: 'fadeInLeft',
-		autoplay: true
+		autoplay:true
 	});
 
 
@@ -79,19 +80,19 @@ $(window).on('load', function () {
 		loop: true,
 		nav: false,
 		dots: false,
-		margin: 40,
+		margin : 40,
 		autoplay: true,
-		responsive: {
-			0: {
+		responsive : {
+			0 : {
 				items: 1,
 			},
-			480: {
+			480 : {
 				items: 2,
 			},
-			768: {
+			768 : {
 				items: 4,
 			},
-			1200: {
+			1200 : {
 				items: 5,
 			}
 		}
@@ -105,15 +106,15 @@ $(window).on('load', function () {
 	$('.popular-services-slider').owlCarousel({
 		loop: true,
 		dots: false,
-		margin: 40,
+		margin : 40,
 		autoplay: true,
-		nav: true,
-		navText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>'],
-		responsive: {
-			0: {
+		nav:true,
+		navText:['<i class="fa fa-angle-left"></i>','<i class="fa fa-angle-right"></i>'],
+		responsive : {
+			0 : {
 				items: 1,
 			},
-			768: {
+			768 : {
 				items: 2,
 			},
 			991: {
@@ -139,13 +140,13 @@ $(window).on('load', function () {
 	/*------------------
 		Circle progress
 	--------------------*/
-	$('.circle-progress').each(function () {
+	$('.circle-progress').each(function() {
 		var cpvalue = $(this).data("cpvalue");
 		var cpcolor = $(this).data("cpcolor");
 		var cptitle = $(this).data("cptitle");
-		var cpid = $(this).data("cpid");
+		var cpid 	= $(this).data("cpid");
 
-		$(this).append('<div class="' + cpid + ' loader-circle"></div><div class="progress-info"><h2>' + cpvalue + '%</h2><p>' + cptitle + '</p></div>');
+		$(this).append('<div class="'+ cpid +' loader-circle"></div><div class="progress-info"><h2>'+ cpvalue +'%</h2><p>'+ cptitle +'</p></div>');
 
 		if (cpvalue < 100) {
 
