@@ -171,7 +171,7 @@ ol {
 	border: none;
 	font-size: 14px;
 	font-weight: 400;
-	min-width: 186px;
+	/*min-width: 186px;*/
 	padding: 17px 25px;
 	border-radius: 14px;
 	background: #eb2b63;
