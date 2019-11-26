@@ -179,6 +179,7 @@ ol {
 	line-height: 1;
 	cursor: pointer;
 	text-align: center;
+	width: 100%;
 }
 
 .site-btn:hover {
