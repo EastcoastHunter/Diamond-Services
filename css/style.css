@@ -124,6 +124,7 @@ ol {
 }
 
 .spad {
+	background: rgba(61, 55, 55, 0.15);
 	padding-top: 105px;
 	padding-bottom: 105px;
 }
@@ -1119,6 +1120,7 @@ ol {
 ---------------------*/
 
 .sc-about-page {
+	background: rgba(61, 55, 55, 0.15);
 	padding-top: 95px;
 	padding-bottom: 74px;
 }
@@ -1402,6 +1404,7 @@ ol {
 ---------------------*/
 
 .contact-section {
+	background: rgba(61, 55, 55, 0.15);
 	padding-top: 100px;
 }
 
